@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    background-color: #8FBC8F;
+    font-size: 50px;
+    height: auto;
+    width: auto;
+}
+
+body, input, button {
+    font-family: 'Liu Jian Mao Cao', cursive;;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.listToDo {
+    font-size: 40px;
+    text-align: left;
+}
+
+#userinput {
+    font-size: 30px;
+}
+
+#enter {
+    font-size: 30px;
+}
