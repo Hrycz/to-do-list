@@ -52,14 +52,3 @@ function addListElementAfterKey(event) {
 button.addEventListener("click", addListElementAfterClick);
 
 input.addEventListener("keypress", addListElementAfterKey);
-
-var list = document.querySelectorAll("li");
-
-for(var i = 0; i < list.length; i++) {
-    list[i].addEventListener("click", liClick); 
-}
-
-//function to add the 'line through' style
-function liClick() {
-    this.classList.toggle("done");
-}
